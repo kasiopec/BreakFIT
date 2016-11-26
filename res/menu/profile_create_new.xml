@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/profile_create_new"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="@string/profile_add"/>
+    <item
+        android:id="@+id/profile_delete"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/profile_delete"/>
+
+</menu>

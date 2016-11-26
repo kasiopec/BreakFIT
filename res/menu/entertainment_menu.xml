@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/menu_help"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/menu_help"/>
+    <!--
+    Cardio Weightlifting... deprecated 
+    <item
+        android:id="@+id/menu_mytours" 
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/menu_mytours"/>
+    <item
+        android:id="@+id/menu_cardio"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_cardio"/>
+    <item
+        android:id="@+id/menu_weightlifting"
+        android:orderInCategory="4"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_weightlifting"/>
+    -->
+
+</menu>

@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Displaying the title for list -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="@string/textview_break"
+            android:textColor="#3BB9FF" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="@string/textview_set"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="@string/textview_set_length"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- View Flipper -->
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:background="#FFFFFF" >
+            </ListView>
+        </LinearLayout>
+        <!-- Gym Motivation -->
+
+        <ImageView
+            android:id="@+id/imageView_1"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_motivation_1" />
+
+        <ImageView
+            android:id="@+id/imageView_2"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_motivation_2" />
+
+        <ImageView
+            android:id="@+id/imageView_3"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_motivation_3" />
+
+        <ImageView
+            android:id="@+id/imageView_4"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_motivation_4" />
+
+        <ImageView
+            android:id="@+id/imageView_5"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_motivation_5" />
+
+        <ImageView
+            android:id="@+id/imageView_6"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes" />
+
+        <ImageView
+            android:id="@+id/imageView_7"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_2" />
+
+        <ImageView
+            android:id="@+id/imageView_8"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_3" />
+
+        <ImageView
+            android:id="@+id/imageView_9"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_4" />
+
+        <ImageView
+            android:id="@+id/imageView_10"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_5" />
+
+        <ImageView
+            android:id="@+id/imageView_11"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_6" />
+
+        <ImageView
+            android:id="@+id/imageView_12"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_7" />
+
+        <ImageView
+            android:id="@+id/imageView_13"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_8" />
+
+        <ImageView
+            android:id="@+id/imageView_14"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_9" />
+
+        <ImageView
+            android:id="@+id/imageView_15"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_10" />
+        <ImageView
+            android:id="@+id/imageView_16"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_11" />
+        <ImageView
+            android:id="@+id/imageView_17"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_12" />
+        <ImageView
+            android:id="@+id/imageView_18"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_13" />
+        <ImageView
+            android:id="@+id/imageView_18"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_14" />
+        <ImageView
+            android:id="@+id/imageView_19"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_15" />
+        <ImageView
+            android:id="@+id/imageView_20"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_16" />
+        <ImageView
+            android:id="@+id/imageView_21"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_17" />
+        <ImageView
+            android:id="@+id/imageView_22"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_19" />
+        <ImageView
+            android:id="@+id/imageView_23"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gym_quotes_20" />
+    </ViewFlipper>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="255dp" >
+        </ListView>
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/btn_start" />
+    </LinearLayout>
+
+</LinearLayout>
